@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  height: 64px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0px 30px;
+  background-color: #fd6e0a;
+}
+.btn-secondary {
+  padding: 0 50px;
+  color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  height: 64px;
+  border-radius: 5px;
+  border: 1;
+  border-color: #fd6e0a;
+}
+
+/* header and navigation styles */
+
+.header {
+  background-color: #fff8f3;
+  background-image: url(/images/header_bg.png), url(/images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+.nav-tittle {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  margin: 0 200px;
+  align-items: center;
+}
+.banner-sub-tittle {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.banner-tittle {
+  color: #181818;
+  font-weight: 700;
+  font-size: 85px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.btn-secondary {
+  align-items: center;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: auto;
+}
+/* about section style */
+.about {
+  margin-top: 30px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-tittle {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about .info-tittle {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}

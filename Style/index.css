@@ -123,12 +123,12 @@ main {
 
 /* what i do styles */
 section {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px;
 }
 .skill-container {
   display: flex;
   gap: 25px;
+  margin-bottom: 100px;
 }
 .skill {
   background: #ffffff;
@@ -149,6 +149,9 @@ section {
 }
 
 /* resume styles */
+.section-tittle {
+  margin-bottom: 100px;
+}
 .resume-content {
   display: flex;
   gap: 24px;
@@ -161,7 +164,7 @@ section {
   color: #474747;
   font-weight: 700;
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .resume .sub-tittle {
   color: #757575;
@@ -173,7 +176,8 @@ section {
   color: #757575;
 }
 .resume-btn {
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 150px;
   text-align: center;
 }
 
@@ -183,7 +187,7 @@ section {
   display: flex;
   gap: 100px;
   background-color: #fff8f3;
-  padding: 130px 200px;
+  padding: 100px 150px;
 }
 .contact .section-tittle {
   text-align: left;
